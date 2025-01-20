@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Marketplace Project
 
-## Getting Started
+This is a Next.js + Sanity CMS-powered marketplace for clothing, shoes, and sneakers. It provides a seamless shopping experience with features such as product browsing, authentication, and a shopping cart.
 
-First, run the development server:
+🚀 Features
 
-```bash
+Product Listing - Browse products fetched from Sanity CMS
+
+Product Details - View detailed information about each item
+
+User Authentication - Sign up and log in functionality (Coming Soon)
+
+Cart & Checkout - Add items to cart and proceed to checkout (Coming Soon)
+
+🛠 Technologies Used
+
+Next.js - React framework for server-side rendering
+
+Sanity CMS - Headless CMS for managing product data
+
+TypeScript - Type safety and better development experience
+
+Tailwind CSS - Utility-first CSS framework for styling
+
+Vercel - Deployment and hosting
+
+📦 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/AyeshaNasirWebDeveloper/Api-Integration-Flex-Wear/.git
+cd your-repository
+
+Install dependencies:
+
+npm install
+
+Set up environment variables in .env.local:
+
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_sanity_project_id
+NEXT_PUBLIC_SANITY_DATASET=your_sanity_dataset_name
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view in the browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 API Integration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Data is fetched from Sanity CMS using GROQ queries and displayed dynamically in the frontend.
 
-## Learn More
+🤝 Contribution Guidelines
 
-To learn more about Next.js, take a look at the following resources:
+Fork the repository
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a new branch (git checkout -b feature-name)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Commit your changes (git commit -m 'Add new feature')
 
-## Deploy on Vercel
+Push to the branch (git push origin feature-name)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open a Pull Request
